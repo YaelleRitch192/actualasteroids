@@ -70,7 +70,7 @@ class asteroid extends gameobject {
         myship.velocity = new PVector(0, 0);
         tkey=false;
 
-        while (dist(location.x, location.y, myship.location.x, myship.location.y)<=300) {
+        while (dist(location.x, location.y, myship.location.x, myship.location.y)<=200) {
           myship.location.x=random(0, 800);
           myship.location.y=random(0, 600);
           tkey=false;
